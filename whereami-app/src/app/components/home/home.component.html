@@ -1,0 +1,11 @@
+<div class="container">
+  <div *ngIf="!user && !error">
+    <h1>Login to see your dashboard</h1>
+  </div>
+  <div *ngIf="user && !error">
+    <h1>Main Area</h1>
+  </div>
+  <div *ngIf="error">
+    <h1>Error initializing the app...</h1>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar-single-row {
+  height: 64px!important;
+}
+
+#logout-button {
+  margin-left: 20px;
+}
+
+#brand {
+  cursor: pointer;
+  outline: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#brand-image {
+  background-image: url("src/assets/keeper-brand.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
